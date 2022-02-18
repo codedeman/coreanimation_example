@@ -25,6 +25,8 @@
 		30ECC1A227BF59B2001507BD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ECC1A127BF59B2001507BD /* BaseViewController.swift */; };
 		30ECC1A627BF7BF0001507BD /* OfferCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ECC1A427BF7BF0001507BD /* OfferCollectionViewCell.swift */; };
 		30ECC1A727BF7BF0001507BD /* OfferCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30ECC1A527BF7BF0001507BD /* OfferCollectionViewCell.xib */; };
+		30ECC1AA27BF89C4001507BD /* ProductTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ECC1A827BF89C4001507BD /* ProductTableCell.swift */; };
+		30ECC1AB27BF89C4001507BD /* ProductTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30ECC1A927BF89C4001507BD /* ProductTableCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		30ECC1A127BF59B2001507BD /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		30ECC1A427BF7BF0001507BD /* OfferCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCollectionViewCell.swift; sourceTree = "<group>"; };
 		30ECC1A527BF7BF0001507BD /* OfferCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfferCollectionViewCell.xib; sourceTree = "<group>"; };
+		30ECC1A827BF89C4001507BD /* ProductTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableCell.swift; sourceTree = "<group>"; };
+		30ECC1A927BF89C4001507BD /* ProductTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +178,8 @@
 			children = (
 				30ECC1A427BF7BF0001507BD /* OfferCollectionViewCell.swift */,
 				30ECC1A527BF7BF0001507BD /* OfferCollectionViewCell.xib */,
+				30ECC1A827BF89C4001507BD /* ProductTableCell.swift */,
+				30ECC1A927BF89C4001507BD /* ProductTableCell.xib */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -286,6 +292,7 @@
 				304D157B27BE84A300505141 /* Assets.xcassets in Resources */,
 				304D157927BE849E00505141 /* Main.storyboard in Resources */,
 				30ECC1A727BF7BF0001507BD /* OfferCollectionViewCell.xib in Resources */,
+				30ECC1AB27BF89C4001507BD /* ProductTableCell.xib in Resources */,
 				30ECC19F27BF53E6001507BD /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +328,7 @@
 				30ECC19E27BF53E6001507BD /* HomeConfigurator.swift in Sources */,
 				30ECC19C27BF53E6001507BD /* HomeViewController.swift in Sources */,
 				30ECC19D27BF53E6001507BD /* HomeInteractor.swift in Sources */,
+				30ECC1AA27BF89C4001507BD /* ProductTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

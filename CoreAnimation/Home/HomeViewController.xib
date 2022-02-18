@@ -10,6 +10,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="CoreAnimation" customModuleProvider="target">
             <connections>
                 <outlet property="collectionView" destination="mew-RG-mg2" id="ciw-Jp-vbt"/>
+                <outlet property="tableView" destination="gco-8M-IMv" id="JWp-VI-I4S"/>
                 <outlet property="vContainInfor" destination="BWq-CG-Wva" id="f7B-RM-RvE"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -96,11 +97,29 @@
                                                         <constraint firstAttribute="height" constant="190" id="u8Z-Vk-9rQ"/>
                                                     </constraints>
                                                 </view>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JA5-cH-6oX">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JA5-cH-6oX" userLabel="component3">
                                                     <rect key="frame" x="0.0" y="505" width="478" height="1000"/>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bữa Trưa Siêu Tiết Kiệm " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QZZ-xv-S34">
+                                                            <rect key="frame" x="15" y="15" width="196.5" height="21"/>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="gco-8M-IMv">
+                                                            <rect key="frame" x="0.0" y="41" width="478" height="959"/>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        </tableView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
+                                                        <constraint firstAttribute="bottom" secondItem="gco-8M-IMv" secondAttribute="bottom" id="B0r-qP-000"/>
                                                         <constraint firstAttribute="height" constant="1000" id="Egj-o6-bT7"/>
+                                                        <constraint firstItem="QZZ-xv-S34" firstAttribute="top" secondItem="JA5-cH-6oX" secondAttribute="top" constant="15" id="FUM-rA-2Aq"/>
+                                                        <constraint firstItem="gco-8M-IMv" firstAttribute="leading" secondItem="JA5-cH-6oX" secondAttribute="leading" id="Uu9-5t-pUF"/>
+                                                        <constraint firstItem="gco-8M-IMv" firstAttribute="top" secondItem="QZZ-xv-S34" secondAttribute="bottom" constant="5" id="ctO-HO-Xen"/>
+                                                        <constraint firstAttribute="trailing" secondItem="gco-8M-IMv" secondAttribute="trailing" id="nbN-MH-K68"/>
+                                                        <constraint firstItem="QZZ-xv-S34" firstAttribute="leading" secondItem="JA5-cH-6oX" secondAttribute="leading" constant="15" id="web-hI-SA4"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
