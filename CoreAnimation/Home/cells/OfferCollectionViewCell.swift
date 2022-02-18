@@ -29,6 +29,7 @@ class OfferCollectionViewCell: UICollectionViewCell {
         self.vContent.layer.shadowRadius = 2
         self.vContent.layer.shadowColor = UIColor.black.cgColor
         self.vContent.layer.masksToBounds = false
+        self.vContent.layer.cornerRadius = 2
         self.imgProduct.layer.cornerRadius = 2
         
         // Initialization code

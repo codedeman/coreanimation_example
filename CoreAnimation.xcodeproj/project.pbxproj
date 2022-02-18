@@ -27,6 +27,7 @@
 		30ECC1A727BF7BF0001507BD /* OfferCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30ECC1A527BF7BF0001507BD /* OfferCollectionViewCell.xib */; };
 		30ECC1AA27BF89C4001507BD /* ProductTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ECC1A827BF89C4001507BD /* ProductTableCell.swift */; };
 		30ECC1AB27BF89C4001507BD /* ProductTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30ECC1A927BF89C4001507BD /* ProductTableCell.xib */; };
+		30ECC1AD27BF957C001507BD /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ECC1AC27BF957C001507BD /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		30ECC1A527BF7BF0001507BD /* OfferCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfferCollectionViewCell.xib; sourceTree = "<group>"; };
 		30ECC1A827BF89C4001507BD /* ProductTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableCell.swift; sourceTree = "<group>"; };
 		30ECC1A927BF89C4001507BD /* ProductTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableCell.xib; sourceTree = "<group>"; };
+		30ECC1AC27BF957C001507BD /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				30ECC1A127BF59B2001507BD /* BaseViewController.swift */,
+				30ECC1AC27BF957C001507BD /* Common.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				304D157227BE849E00505141 /* AppDelegate.swift in Sources */,
 				30ECC19A27BF53E5001507BD /* HomeWorker.swift in Sources */,
 				304D157427BE849E00505141 /* SceneDelegate.swift in Sources */,
+				30ECC1AD27BF957C001507BD /* Common.swift in Sources */,
 				30ECC19B27BF53E6001507BD /* HomeRouter.swift in Sources */,
 				30ECC1A627BF7BF0001507BD /* OfferCollectionViewCell.swift in Sources */,
 				30ECC1A227BF59B2001507BD /* BaseViewController.swift in Sources */,
