@@ -62,7 +62,8 @@ class HomeViewController: BaseViewController,UIScrollViewDelegate {
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         
-        self.tableView.register(ProductTableCell.nibView, forCellReuseIdentifier: ProductTableCell.Identifier)
+//        self.tableView.register(ProductTableCell.nibView, forCellReuseIdentifier: ProductTableCell.Identifier)
+        self.tableView.on_register(type: ProductTableCell.self)
         self.tableView.delegate = self
         self.tableView.dataSource = self
         self.scrollView.delegate = self
@@ -75,7 +76,7 @@ class HomeViewController: BaseViewController,UIScrollViewDelegate {
         let gradientLayer:CAGradientLayer = CAGradientLayer()
          gradientLayer.frame.size = self.vGradient.frame.size
          gradientLayer.colors =
-        [UIColor.white.cgColor,UIColor.clear.cgColor]
+        [UIColor.white.cgColor,UIColor.white.cgColor.alpha]
         //Use diffrent colors
         gradientLayer.startPoint  = CGPoint(x: 1.0, y: 1.0)
         gradientLayer.endPoint = CGPoint(x: 1.0, y: 0.0)
@@ -199,7 +200,7 @@ extension HomeViewController:UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: ProductTableCell.Identifier, for: indexPath) as? ProductTableCell else { return UITableViewCell()}
+        let cell:ProductTableCell = tableView.on_dequeue(idxPath: indexPath)
         
         return cell
 

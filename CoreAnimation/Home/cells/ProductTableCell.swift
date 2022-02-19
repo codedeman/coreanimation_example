@@ -7,7 +7,12 @@
 
 import UIKit
 
-class ProductTableCell: UITableViewCell {
+//protocol BaseCellPorotocol {
+//    static  func getNibName()
+//    static  func getNib()
+//}
+
+class ProductTableCell: UITableViewCell,BaseCellPorotocol {
 
     
     static let nibView = UINib(nibName: "ProductTableCell",
@@ -26,3 +31,5 @@ class ProductTableCell: UITableViewCell {
     }
     
 }
+
+
